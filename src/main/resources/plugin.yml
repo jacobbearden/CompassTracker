@@ -1,0 +1,6 @@
+name: ${project.name}
+main: ${groupId}.${project.artifactId}
+version: ${project.version} (git-${git.commit.id.abbrev})
+website: ${project.url}
+commands:
+  tracker:
